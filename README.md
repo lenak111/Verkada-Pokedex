@@ -11,3 +11,6 @@ I used the Swift storyboard structure to create this app for iPhone 11. I decide
 I really had a great time working on this take home project and I was drawn more and more in as I proceeded to work. This was my first ever Swift project and it honestly felt like it was a personal project because I also love Pokemon and iOS development has always been an interest of mine. I spent many hours, more than what was probably expected, because I wanted to make sure that the final product was something I was satisfied with. I wasn't able to get to milestone 3, image caching, but if I could continue to work on this project, my future goals would be image caching, adding more information, and trying to emulate the real Pokedex.
 
 Made by Lena Kushigemachi for the Verkada iOS Mobile Team takehome project.
+
+Demo: https://user-images.githubusercontent.com/48635484/187177494-b455516e-83b5-40cb-9141-3ab3bca5bd2b.mp4
+
