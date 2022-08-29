@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Verkada Pokedex Project
+//  Pokedex
 //
 //  Created by Lena  K on 8/28/22.
 //
@@ -33,4 +33,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

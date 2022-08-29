@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F102EB928BC43BC00D4026F /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F102EB828BC43BC00D4026F /* MyCollectionViewCell.swift */; };
 		1FD3306728BC393B006D9787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD3306628BC393B006D9787 /* AppDelegate.swift */; };
 		1FD3306928BC393B006D9787 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD3306828BC393B006D9787 /* SceneDelegate.swift */; };
 		1FD3306B28BC393B006D9787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD3306A28BC393B006D9787 /* ViewController.swift */; };
 		1FD3306E28BC393B006D9787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD3306C28BC393B006D9787 /* Main.storyboard */; };
 		1FD3307028BC393E006D9787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD3306F28BC393E006D9787 /* Assets.xcassets */; };
 		1FD3307328BC393E006D9787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD3307128BC393E006D9787 /* LaunchScreen.storyboard */; };
+		1FE45CD528BCADCB00A446DA /* pokemon_bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1FE45CD428BCADCB00A446DA /* pokemon_bg.jpeg */; };
+		1FE45CDB28BCB46500A446DA /* pokemon_bg_selected.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1FE45CDA28BCB46500A446DA /* pokemon_bg_selected.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F102EB828BC43BC00D4026F /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		1FD3306328BC393B006D9787 /* Verkada Pokedex Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Verkada Pokedex Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD3306628BC393B006D9787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FD3306828BC393B006D9787 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		1FD3306F28BC393E006D9787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FD3307228BC393E006D9787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FD3307428BC393E006D9787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FE45CD428BCADCB00A446DA /* pokemon_bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pokemon_bg.jpeg; sourceTree = "<group>"; };
+		1FE45CDA28BCB46500A446DA /* pokemon_bg_selected.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pokemon_bg_selected.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +66,12 @@
 				1FD3306828BC393B006D9787 /* SceneDelegate.swift */,
 				1FD3306A28BC393B006D9787 /* ViewController.swift */,
 				1FD3306C28BC393B006D9787 /* Main.storyboard */,
+				1F102EB828BC43BC00D4026F /* MyCollectionViewCell.swift */,
 				1FD3306F28BC393E006D9787 /* Assets.xcassets */,
 				1FD3307128BC393E006D9787 /* LaunchScreen.storyboard */,
 				1FD3307428BC393E006D9787 /* Info.plist */,
+				1FE45CDA28BCB46500A446DA /* pokemon_bg_selected.jpeg */,
+				1FE45CD428BCADCB00A446DA /* pokemon_bg.jpeg */,
 			);
 			path = "Verkada Pokedex Project";
 			sourceTree = "<group>";
@@ -124,6 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE45CDB28BCB46500A446DA /* pokemon_bg_selected.jpeg in Resources */,
+				1FE45CD528BCADCB00A446DA /* pokemon_bg.jpeg in Resources */,
 				1FD3307328BC393E006D9787 /* LaunchScreen.storyboard in Resources */,
 				1FD3307028BC393E006D9787 /* Assets.xcassets in Resources */,
 				1FD3306E28BC393B006D9787 /* Main.storyboard in Resources */,
@@ -139,6 +150,7 @@
 			files = (
 				1FD3306B28BC393B006D9787 /* ViewController.swift in Sources */,
 				1FD3306728BC393B006D9787 /* AppDelegate.swift in Sources */,
+				1F102EB928BC43BC00D4026F /* MyCollectionViewCell.swift in Sources */,
 				1FD3306928BC393B006D9787 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
